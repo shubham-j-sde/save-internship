@@ -1,0 +1,77 @@
+#casestudies{
+	margin-bottom: 100px;
+	position: relative;
+}
+
+
+.case-image-cont{
+	height:300px;
+	position: relative;
+	display: block;
+}
+
+.case-image{
+	height: 300px;
+	display: block;
+	position:absolute;
+	top:50%;
+	left:50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.case-textbox{
+	padding-top: 40px;
+	padding-left: 40px;
+	height:300px;
+	text-align: left;
+	display: flex;
+	color:black;
+	display: block;
+	cursor: pointer;
+}
+
+.case-textbox:hover{
+	background-image: linear-gradient(to bottom right,transparent, #e85d04 80%);
+	
+}
+
+.case-upper-part{
+	font-size:4vw;
+
+	background-color: #621708;
+	background-image: linear-gradient(to bottom right,transparent, black 80%);
+
+	color : white;
+	padding: 10px 200px 0px 20px;
+	display: inline-block;
+
+}
+
+.case-who{
+	font-size: 2em;
+}
+
+.case-page-nav{
+	display: inline-block;
+	position: relative;
+	left:50%;
+  transform: translate(-50%,0);
+}
+
+.case-back , .case-forw{
+	color:brown;
+	background-color: transparent;
+	border-width: 0px;
+	display: inline-block;
+	position: relative;
+	top:8px;
+
+}
+.MuiPagination-ul{
+	color: brown;
+}
+.case-nav{
+	color:brown;
+	display: inline-block;
+}

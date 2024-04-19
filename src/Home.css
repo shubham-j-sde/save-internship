@@ -1,0 +1,92 @@
+.logo{
+	height: 40vmin;
+
+	margin-bottom: 20px;
+position: absolute;
+top:70px;
+left:0px;
+}
+@media screen and (max-width: 1000px) {
+.logo{
+	display: none;
+}
+}
+.logo-text{
+
+	font-family: 'Love Ya Like A Sister', Roboto, sans-serif;
+	font-size: 25vmin;
+	background-color:#621708;
+	background-image: linear-gradient(to bottom right,transparent, black 80%);
+	color:white;
+
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+	text-align: center;
+	margin-top:50px;
+	margin-bottom:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:50px;
+}
+.logo-text-caption{
+font-size:24px;
+font-family: Montserrat, sans-serif;
+
+}
+
+.document{
+	margin: 0px 0px 0px 0px ;
+	padding-left:20px ;
+	padding-right:20px;
+	font-family: Montserrat,sans-serif;
+}
+
+.menu{
+	border-top: 5px;
+	border-color: #621708;
+	border-top-style: solid;
+	background-color:  #ff9505 ;
+	font-weight: bold;
+	 display: block;
+	padding: 0px 0px 0px 0px !important;
+	position: sticky !important;
+	top:0;
+	z-index: 100;
+}
+.menu-item{
+}
+
+
+.right-1{
+	background-color: #621708;
+	color : white !important;
+
+}
+
+.right-0{
+	background-color: #06D6A0;
+	color : white !important;
+	font-weight: 400;
+}
+
+.menu-item:hover{
+	background-image: linear-gradient(to bottom right,transparent, #e85d04 80%);
+	color:white !important;
+}
+.right-1:hover,.right-0:hover{
+	background-color: 621708;
+	background-image: linear-gradient(to bottom right,transparent, black 80%);
+}
+
+.section{
+	border-color: #621708;
+	color: #621708;
+	border-width: 2px;
+	border-left-style: solid;
+	padding-left: 10px;
+	height: 2.3em;
+	padding-top: 10px;
+	font-size: 1.3em;
+}

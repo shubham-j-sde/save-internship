@@ -1,0 +1,64 @@
+#article{
+}
+
+.dialog-arrow{
+	display: inline-block;
+	height:2em;
+}
+.dialog-back-button{
+	color:white !important;
+	display: inline-block;
+	/*height:2px;*/
+	height:100%;
+	width:50px;
+	/*background-color: red;*/
+	/*margin-right: 30px;*/
+	cursor: pointer;
+}
+.dialog-box{
+}
+.dialog-title{
+	margin-top: 40px;	
+background-color: #621708;
+padding: 10px 20px 10px 20px;
+color:white;
+}
+
+.icon-button{
+
+}
+
+.dialog-subtitle{
+font-size: 1.5em;
+padding: 10px 20px 10px 20px;
+display: inline-block;
+}
+
+.dialog-date{
+	float:right;
+}
+.dialog-image{
+max-width:40%;
+max-height: 60%;
+float:right;
+}
+
+@media screen and (max-width: 1000px) {
+.dialog-image{
+	width:100%;
+}
+}
+.dialog-content{
+}
+.dialog-content-text{
+padding: 10px 20px 10px 20px;
+margin-bottom: 0px;  
+width:100%;
+  word-wrap: break-word;
+
+}
+
+.dialog-gallery{
+	margin-left :100px;
+	margin-right:100px;
+}

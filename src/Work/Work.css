@@ -1,0 +1,92 @@
+.work-card-width{
+width:200px !important; 
+height: 150px;
+}
+
+.work-card {
+	cursor: pointer;
+border-radius:0px !important;
+position: relative;
+	background-color:  rgba(255,149,5,0.3) !important;
+border-width: 0px !important;
+z-index: 1;
+position: relative;
+display: inline-block;
+}
+
+.work-card:hover{
+	background-image: linear-gradient(to bottom right,transparent, #e85d04 80%);
+}
+
+.Link{
+	color:black;
+}
+.Link:hover{
+	color:black;
+}
+
+#work-card-icon{
+	color: #621708;
+	font-size:3vw;
+	position: absolute;
+	right:0px;
+	bottom: 0px;
+	transform: scale(0.7);
+}
+
+#work{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-height: 550px;
+	position: relative;
+}
+
+.g-pagination{
+	display: inline-block;
+	color: #621708;
+	font-size: 1.5em;
+	z-index: 30;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%,0);
+}
+.g-pag-correct{
+	bottom: -30px;
+}
+
+.g-pagination-elem{
+	margin-left: 5px;
+	margin-right: 5px;
+	width:30px;
+	text-decoration: none;
+	text-align: center;
+}
+.g-pagination-elem:hover{
+		background-image: linear-gradient(to bottom right,transparent, #e85d04 80%);
+
+}
+.g-pagination-elem-link{
+	display: block;
+
+}
+.g-pagination-active{
+	background-color: #621708;
+	color:white;
+}
+
+.g-pagination-prev{
+margin-right: 20px;
+padding: 0 5px 0px 5px;
+}
+
+.g-pagination-next{
+padding: 0 5px 0px 5px;
+
+margin-left: 20px;
+}
+
+.g-pagination-prev:hover,.g-pagination-next:hover{
+		background-image: linear-gradient(to bottom right,transparent, #e85d04 80%);
+
+}
+

@@ -1,0 +1,48 @@
+.mem-box{
+border-radius: 0px;
+}
+.mem-dialog-title{
+background-color: #621708;
+
+}
+.mem-text-cont{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top-width: 3px;
+	border-top-color: white;
+	border-top-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: white;
+	border-bottom-style: solid; 
+}
+.mem-content-text{
+	display: inline-block;
+	max-width:400px;
+	color: white;
+	border: 2px 0px 2px 0px solid white;
+	word-wrap: break-word;
+}
+.mem-title{
+	margin-top: 40px;
+	margin-bottom: 20px;
+font-size: 1.6em;
+}
+.mem-content{
+background-color: #621708;
+}
+.mem-image{
+width:30vmax;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+float: left;
+}
+
+.mem-list{
+  list-style-type: square;
+  margin: 0;
+	font-size: 1.5em;
+}
+.mem-item{
+}
